@@ -1,4 +1,4 @@
-class student ():
+class Student ():
     def __init__ (self, name, surname, hours, qpoints):
         self.name = name
         self.surname = surname
@@ -6,7 +6,7 @@ class student ():
         self.qpoints = float(qpoints)
     
     def __str__(self):
-        return f""
+        return f"{self.name} {self.surname}"
     
     def __repr__(self):
         return f""
